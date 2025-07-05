@@ -25,6 +25,5 @@ public int getQuantity() {
 
 public void decreaseQuantity(int amount) { this.quantity -= amount; }
 public boolean isExpired() { return false; }
-//public boolean requiresShipping() { return this instanceof ship; }
 
 }
